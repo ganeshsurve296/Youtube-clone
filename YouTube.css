@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    padding: 0 16px;
+    background-color: black;
+}
+
+.navmenuic {
+    color: aliceblue;
+    font-size: 1.5rem;
+    height: 1.7rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 24px;
+    color: aliceblue;
+}
+
+.logoimg {
+    background-image: url("https://goodly.co.in/wp-content/uploads/2023/10/youtube-logo-png-46016-1.png");
+    height: 1.5rem;
+    width: 2rem;
+    background-size: cover;
+    border-radius: 25%;
+}
+
+.logotxt {
+    font-size: 1.5rem;
+    width: 5.5rem;
+    height: 1.5rem;
+}
+
+.country {
+    margin: 0;
+}
+
+.srchbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 575px;
+    height: 2rem;
+    margin-left: 240px;
+    padding: 4px 8px;
+
+    border: 1px solid wheat;
+    border-radius: 25px;
+}
+
+.searchb {
+    width: 100%;
+    border: none;
+    border-right: 1px solid wheat;
+    font-size: 1rem;
+    background: transparent;
+    color: white;
+}
+
+.srcic {
+    font-size: 1.2rem;
+    color: aliceblue;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 0.5rem;
+}
+
+.border {
+    border: 1px solid #d0d0d0;
+    border-radius: 25px;
+}
+.border:hover {
+    border: 2px solid whitesmoke;
+}
+
+.nav_mic {
+    color: aliceblue;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    width: 41px;
+    height: 41px;
+    margin-left: 10px;
+}
+
+.micic {
+    margin: 9px 0 0 13px;
+    width: 20px;
+}
+
+.dots {
+    font-size: 1.5rem;
+    color: aliceblue;
+    margin: 3px 0 0 260px;
+}
+
+.signin {
+    display: flex;
+    align-items: center;
+
+    width: 97px;
+    height: 34.4px;
+    margin-left: 30px;
+    padding-left: 5px;
+
+    font-size: 1.2rem;
+    color: aliceblue;
+}
+
+.signtxt {
+    padding-left: 6px;
+}
+
+.vertnavbar {
+    position: fixed;
+    top: 60px;
+
+    width: 64px;
+    height: 100%;
+    color: #d0d0d0;
+    text-align: center;
+}
+
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+.shortsic,
+.subsic,
+.youic,
+.histic {
+    padding-top: 20px;
+}
+
+.secnavbar {
+    position: fixed;
+    top: 50px;
+    left: 65px;
+    z-index: 900;
+
+    height: 56px;
+    width: calc(100% - 65px);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    padding-right: 24px;
+    color: #d0d0d0;
+}
+
+.secborder {
+    border: 0.5px solid #ffffff;
+    padding: 4px 15px;
+    border-radius: 12px;
+    background-color: #7070704d;
+}
+.All {
+    background-color: #ffffff4d;
+}
+
+.video {
+    display: flex;
+    flex-wrap: wrap;
+    color: #ffffff;
+
+    width: 100%;
+    margin-left: 68px;
+    margin-top: 80px;
+}
+
+.box {
+    height: 350px;
+    width: 29%;
+    margin: 0 0 20px 2%;
+    border-radius: 15px;
+}
+
+.boxi {
+    height: 250px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.caption {
+    display: flex;
+    margin-top: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bcaption p {
+    margin-top: 6px;
+    color: #8f8d8d4d;
+}
+
+.boxb {
+    display: flex;
+}
+
+.chicon {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin: 5px 7px 0 0;
+}
+
+.img1 {
+    background-image: url("Screenshot 2025-08-26 201314.png");
+    background-size: cover;
+}
+.img1:hover {
+    background-image: url("https://i.ytimg.com/an_webp/McUlRJyab_E/mqdefault_6s.webp?du=3000&sqp=CM2_jsYG&rs=AOn4CLB6-vVQf1aYd2QcY52DjhS3SAVOkw");
+    background-size: cover;
+}
+.ch1 {
+    background-color: purple;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.img2 {
+    background-image: url("https://marketplace.canva.com/EAGOOpZ55JA/1/0/1600w/canva-black-and-dark-space-photo-youtube-thumbnail-6L7wzIPydL4.jpg");
+    background-size: cover;
+}
+.ch2 {
+    background-image: url("https://marketplace.canva.com/EAGOOpZ55JA/1/0/1600w/canva-black-and-dark-space-photo-youtube-thumbnail-6L7wzIPydL4.jpg");
+    background-size: cover;
+}
+
+.img3 {
+    background-image: url("https://i.ytimg.com/vi/z_k5keq1qKs/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDQBUONTYoioARk5pieNFONX3oXuQ");
+    background-size: cover;
+}
+.ch3 {
+    background-image: url("https://yt3.ggpht.com/86ExV8UBDqlyyJPuhdSiYW7R_lcFYe7_0qg8eti28wiP-FYUZ5FHjBMEKmo1tSdMBvR2fMUyWgw=s176-c-k-c0x00ffffff-no-rj-mo");
+    background-size: cover;
+}
+.img4 {
+    background-image: url("https://i.ytimg.com/an_webp/8OgwKBiDu5w/mqdefault_6s.webp?du=3000&sqp=CJC7jsYG&rs=AOn4CLClYWTJtihutRtS2dC_Vmcago0keA");
+    background-size: cover;
+}
+.ch4 {
+    background-image: url("https://yt3.ggpht.com/86ExV8UBDqlyyJPuhdSiYW7R_lcFYe7_0qg8eti28wiP-FYUZ5FHjBMEKmo1tSdMBvR2fMUyWgw=s176-c-k-c0x00ffffff-no-rj-mo");
+    background-size: cover;
+}
